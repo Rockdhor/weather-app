@@ -12,6 +12,9 @@ body {
 
 #searchBar {
     margin: 1vh 0 25vh 0;
+    border: none;
+    background-color: rgba(252, 252, 252, 0.658);   
+    font-size: 3rem;
 }
 
 .results {
