@@ -18,10 +18,9 @@ document.getElementById("searchBar").onkeypress = ((e) => {
                 document.getElementById("feels").textContent = "Feels like: " + parseInt(data.main.feels_like) + "℉";
                 document.getElementById("wind").textContent = "Wind: " +parseInt(data.wind.speed) + " MPH";
                 document.getElementById("humidity").textContent = "Humidity " +data.main.humidity + " %";
-                
                 break;
             case "404":
-                console.log("no city");
+                alert("Huh, we couldn't find that one. Check your spelling.")
             default:
                 break;
         }   
